@@ -322,7 +322,7 @@ ENV/
 .mypy_cache/
 
 # webpack
-*.stats.json
+webpack-stats.json
 
 # webpack generated bundles
 frontend/bundles
