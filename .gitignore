@@ -320,3 +320,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# webpack
+*.stats.json
+
+# webpack generated bundles
+frontend/bundles
