@@ -324,5 +324,5 @@ ENV/
 # webpack
 webpack-stats.json
 
-# webpack generated bundles
-frontend/bundles
+# webpack generated bundles and static files
+frontend/static
