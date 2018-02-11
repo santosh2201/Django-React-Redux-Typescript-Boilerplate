@@ -11,7 +11,7 @@ module.exports = {
 	},
 	devtool: 'inline-source-map',
 	output: {
-		path: path.resolve('./frontend/bundles/'),
+		path: path.resolve('./frontend/static/bundles/'),
 		filename: "[name]-[hash].js"
 	},
 
@@ -66,7 +66,7 @@ module.exports = {
 			options: {
 				name: '[name]-[hash].[ext]',
 				outputPath: 'images/',
-				publicPath: 'frontend/bundles/'
+				publicPath: 'frontend/static/bundles/'
 			}
 		},
 		{

@@ -24,7 +24,7 @@ SECRET_KEY = 'frobam8*+@h(p%#8ft+)x=e73d_t(jch3hn%-nf+6f=y5zq=kb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '10.40.252.127', '192.168.200.155']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -96,7 +96,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-STATIC_URL = os.path.join(BASE_DIR, '/frontend/')
+STATIC_URL = os.path.join(BASE_DIR, '/frontend/static/')
+STATIC_ROOT = os.path.join(BASE_DIR, "frontend/static")
 
 WEBPACK_LOADER = {
     'DEFAULT': {
